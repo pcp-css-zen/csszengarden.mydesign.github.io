@@ -47,7 +47,7 @@ body {
 
 .intro {
     margin: 0 auto;
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))),url("/img/garden.jpg");
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))),url("https://unsplash.com/photos/1qjmaFRC9aQ/download?force=true");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
