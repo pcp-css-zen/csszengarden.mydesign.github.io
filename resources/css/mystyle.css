@@ -48,6 +48,7 @@ body {
 .intro {
     margin: 0 auto;
     background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.7)),to(rgba(0, 0, 0, 0.7))),url("https://unsplash.com/photos/1qjmaFRC9aQ/download?force=true");
+    url("/img/garden.jpg")
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -254,6 +255,63 @@ ul a:active {
 }
 
 /* media queries */
+
+@media all and (orientation:portrait) {
+    .preamble {
+        top: 110%;
+        margin-top: 5%;
+        width: 100%;
+        float: none;
+    }
+    
+    .main{
+        width: 100%;
+        float: none;
+    }
+    
+    .explanation,
+    .participation,
+    .benefits,
+    .requirements {
+        margin: 8% auto;
+    }
+    
+    .explanation {
+        margin-top: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+        float: none;
+    }
+    
+    ul {
+        font-size: 95%;
+    }
+    
+    li {
+        display: block;
+        width: 100%;
+        margin: 8px 0;
+        text-align: center;
+    }
+    
+    .design-selection,
+    .design-archives,
+    .zen-resources {
+        margin: 15% auto;
+    }
+    
+    footer {
+        width: 100%;
+        padding: 35px 0px;
+        position: absolute;
+        margin: 0;
+        margin-top: 210%;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width: 1920px) {
     .preamble {
         margin-top: 5%;
@@ -424,11 +482,12 @@ ul a:active {
     }
     
     .preamble {
+        top: 110%;
         margin-top: 10%;
     }
     
     .explanation {
-        margin-top: 102%;
+        margin-top: 112%;
     }
     
     ul {
@@ -437,13 +496,16 @@ ul a:active {
 }
 
 @media only screen and (max-width: 320px){
+    .preamble {
+        top: 115%;
+    }
     p {
         font-size: 90%;
         line-height: 1.3;
     }
     
     .explanation {
-        margin-top: 210%;
+        margin-top: 220%;
     }
     
     ul {
@@ -451,7 +513,7 @@ ul a:active {
     }
     
     footer {
-        margin-top: 250%;
+        margin-top: 260%;
     }
     
     footer a:link,
